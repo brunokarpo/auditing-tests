@@ -7,9 +7,8 @@ import nom.brunokarpo.personweb.model.Person
 import org.hamcrest.Matchers
 import org.junit.Test
 import org.springframework.http.HttpStatus
-import java.util.*
 
-class PersonControllerIT: PersonWebApplicationTests() {
+class PersonControllerTest: PersonWebApplicationTests() {
 
     @Test
     fun shouldSaveNewPerson() {
