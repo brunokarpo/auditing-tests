@@ -1,0 +1,7 @@
+package nom.brunokarpo.auditproject
+
+import org.springframework.boot.SpringBootConfiguration
+import org.springframework.boot.runApplication
+
+@SpringBootConfiguration
+class AuditProjectApplication
